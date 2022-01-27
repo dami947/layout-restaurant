@@ -1,1 +1,1 @@
- https://dami947.github.io/restaurant/
+ https://dami947.github.io/layout-restaurant-pages/

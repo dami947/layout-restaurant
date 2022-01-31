@@ -13,6 +13,7 @@ body {
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
     background-color: #fffaf7;
+    scroll-behavior: smooth;
 }
 
 [id] {
@@ -28,9 +29,6 @@ h3 {
     color: #8F3C00;
 }
 
-main {
-    overflow: hidden;
-}
 
 .hero-bg {
     position: absolute;
@@ -76,6 +74,9 @@ main {
 }
 
 .navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: #ffecde;
     font-size: 3rem;
@@ -173,6 +174,7 @@ main {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
     z-index: 0;
 
     .text {

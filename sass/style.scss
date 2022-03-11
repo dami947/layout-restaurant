@@ -14,6 +14,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #fffaf7;
     scroll-behavior: smooth;
+    min-width: 250px;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 [id] {

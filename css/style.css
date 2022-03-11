@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -15,6 +15,9 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #fffaf7;
   scroll-behavior: smooth;
+  min-width: 250px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 [id] {
@@ -45,11 +48,11 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   top: 0;
   left: 0;
@@ -113,7 +116,7 @@ h3 {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .aboutus .text-top {
@@ -125,11 +128,11 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 1.8rem;
 }
 
@@ -169,11 +172,11 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   top: 0;
   left: 0;
@@ -193,11 +196,11 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #bfbfbf;
   z-index: 5;
 }
@@ -238,7 +241,7 @@ h3 {
 
 .tasting-menu .card {
   -webkit-box-shadow: 5px 5px 10px black;
-  box-shadow: 5px 5px 10px black;
+          box-shadow: 5px 5px 10px black;
 }
 
 .tasting-menu .card-body {
@@ -247,13 +250,13 @@ h3 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 300px;
 }
 
@@ -357,24 +360,19 @@ footer {
   [id] {
     scroll-margin-top: 65px;
   }
-
   .hero-image {
     background-image: url(../img/platter-hq.jpg);
   }
-
   .contact {
     background-image: url(../img/abendbrot.jpg);
   }
-
   .aboutus .carousel-item {
     height: 700px;
   }
-
   .reservation {
     background-image: url(../img/bistro-hq.jpg);
     height: 45vh;
   }
-
   .reservation .card-one h4 {
     font-size: 8rem;
   }
@@ -390,23 +388,20 @@ footer {
   .aboutus .text-top {
     font-size: 2.4rem;
   }
-
   .aboutus .text-bottom {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 2rem;
   }
-
   .aboutus .text-bottom button {
     font-size: 2.4rem;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
